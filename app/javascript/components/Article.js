@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Timestamp from "react-timestamp"
 class Article extends React.Component {
   render () {
     return (
@@ -15,7 +16,7 @@ class Article extends React.Component {
               last updated: {this.props.updated_at} ago
             </small>
           </div>
-       </div>{this.props.description}
+       </div>
       </React.Fragment>
     );
   }
