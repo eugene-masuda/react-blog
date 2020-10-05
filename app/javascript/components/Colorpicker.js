@@ -4,6 +4,12 @@ import PropTypes from "prop-types"
 import { SketchPicker } from 'react-color';
     
 class Colorpicker extends React.Component {
+
+    constructor(props) {
+      super(props);
+    }
+    handleChange = {}
+
     render() {
       return (
       <React.Fragment>
@@ -14,5 +20,4 @@ class Colorpicker extends React.Component {
 }
  
 Colorpicker.propTypes = {};
- 
 export default Colorpicker
